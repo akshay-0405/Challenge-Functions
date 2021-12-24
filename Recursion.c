@@ -7,7 +7,7 @@ void main()
 	printf("Enter a number :");
 	scanf("%d",&n);
 	total=abc(n);
-	printf("Sum Of Digits of %d is %d",n,total);
+	printf("Sum Of Digits of %d is %d ",n,total);
 }
 int abc(int n)
 {
